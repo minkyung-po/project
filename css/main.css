@@ -1,6 +1,7 @@
 .main-content {
   width: 100%;
   max-width: 1920px;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,6 +158,25 @@
   top: 570px;
 }
 
+@media screen and (max-width: 1920px) {
+  .main-wrapper {
+    padding-top: 50px;
+    height: auto;
+    min-height: auto;
+  }
+
+  .main {
+    padding-bottom: 50px;
+  }
+
+  .notice-wrapper,
+  .instruction-wrapper,
+  .newsletter-wrapper,
+  .faq-wrapper {
+    padding: 30px 20px;
+  }
+}
+
 @media screen and (max-width: 1750px) {
   .main-wrapper {
     padding-top: 100px;
@@ -239,6 +259,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main-wrapper,
+  .notice-wrapper,
+  .instruction-wrapper,
+  .newsletter-wrapper,
+  .faq-wrapper {
+    padding: 20px 10px; /* 수정 */
+  }
+
   .main-wrapper {
     padding-top: 70px;
   }

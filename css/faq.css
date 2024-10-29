@@ -1,6 +1,8 @@
 .faq {
   width: 100%;
+  min-height: auto;
   padding: 64px 0;
+  margin: 0;
 }
 
 .faq-wrapper {
