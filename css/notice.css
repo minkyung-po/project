@@ -10,6 +10,7 @@
 
 .notice-wrapper {
   width: 100%;
+  max-width: 1920px;
   position: relative;
   display: flex;
   flex-direction: column;

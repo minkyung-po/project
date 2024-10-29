@@ -4,6 +4,7 @@
 
 .newsletter-wrapper {
   width: 61.4%;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
