@@ -1,0 +1,166 @@
+.instruction {
+  width: 100%;
+  padding: 64px 0;
+  font-size: 1rem;
+}
+
+.instruction-wrapper {
+  width: 61.4%;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.instruction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.ins-more {
+  display: flex;
+  align-items: center;
+}
+
+.ins-more-ex {
+  font-size: 0.81rem;
+  color: #555555;
+  margin-right: 5px;
+}
+
+.ins-more-icn {
+  width: 16px;
+  height: 16px;
+}
+
+.instruction-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+.instruction-item {
+  display: flex;
+  width: calc(50% - 2%);
+  margin-bottom: 3.2%;
+  align-items: center;
+}
+
+.instruction-img {
+  width: 180px;
+  height: auto;
+  border-radius: 15px;
+  margin-right: 4%;
+  flex-shrink: 0;
+}
+
+.instruction-content {
+  flex: 1;
+}
+
+.instruction-sub {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.instruction-ex {
+  font-size: 0.81rem;
+  color: #555;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1610px) {
+  .instruction-list {
+    flex-direction: column;
+  }
+
+  .instruction-item {
+    width: 100%;
+    margin-bottom: 6%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .instruction {
+    padding-top: 100px;
+    width: 100%;
+  }
+
+  .instruction-wrapper {
+    align-items: center;
+  }
+
+  .instruction-header {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .ins-more {
+    margin-left: auto;
+  }
+
+  .instruction-list {
+    flex-direction: column;
+  }
+
+  .instruction-item {
+    width: 100%;
+    margin-bottom: 6%;
+  }
+
+  .instruction-img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .notice1,
+  .notice2,
+  .notice3 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ins-more-ex {
+    font-size: 0.5rem;
+  }
+
+  .ins-more-icn {
+    width: 10px;
+  }
+
+  .instruction-list {
+    flex-direction: row;
+  }
+
+  .instruction-item {
+    flex-direction: column;
+    width: 48%;
+    margin-bottom: 6%;
+  }
+
+  .instruction-img {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+
+  .instruction-content {
+    margin-bottom: 3px;
+  }
+
+  .instruction-sub {
+    font-size: 0.7rem;
+  }
+
+  .instruction-ex {
+    display: none;
+  }
+}
